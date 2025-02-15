@@ -12,7 +12,7 @@ const axios = require("axios");
 app.use(express.json());
 app.options('*', cors());
 app.use(cors({
-  origin: "pokedex-front-test.vercel.app",
+  origin: "https://pokedex-front-test.vercel.app",
   methods: ["POST"],
 }))
 
