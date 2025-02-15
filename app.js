@@ -43,6 +43,8 @@ let image = "";
 
 const giveList = () => {
   app.post("/", (req, res) => {
+    console.log(req);
+    
     if(req.method === "POST") {
       const cleanReq = xss(req.body.inputText);
       // console.log(cleanReq);
@@ -78,6 +80,8 @@ async function main() {
       name: true,  // Sélectionne uniquement la colonne "name"
     },
   });
+
+  console.log(pokemonNames);
   
   await prisma.$disconnect();
     
