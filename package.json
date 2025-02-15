@@ -1,0 +1,25 @@
+{
+  "name": "pokemon_backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Meow",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.3.0",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mariadb": "^3.4.0",
+    "mysql2": "^3.12.0",
+    "xss": "^1.0.15"
+  }
+}
