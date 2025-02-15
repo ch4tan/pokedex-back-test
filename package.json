@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
-    "prisma:generate": "prisma generate",
+    "prisma:generate": "npx prisma generate",
     "start": "npm run prisma:generate && node app.js"
   },
   "devDependencies": {
