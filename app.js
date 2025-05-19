@@ -10,7 +10,7 @@ const axios = require("axios");
 
 //définition des méthodes gérant le endpoint
 app.use(express.json());
-app.options('*', cors());
+// app.options('*', cors());
 app.use(cors({
   origin: "https://pokedex-front-test.vercel.app",
   methods: ["POST"],
